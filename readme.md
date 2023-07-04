@@ -31,3 +31,7 @@ src:  //cdn.programiz.com/sites/tutorial2program/files/adjacency-list.png
 ## Handshaking Theorem
 
 # Konigsberg 7 Bridge Problem
+
+<img src="/img/konigsberg7bridge.png" >
+
+<img src="/img/konigsberg7bridgeTraversal.png">
