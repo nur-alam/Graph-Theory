@@ -1,16 +1,44 @@
 # Graph Theory
 
-definition here
+## Konigsberg 7 Bridge Problem
 
-# Type of graph
+<img src="/img/konigsberg7bridge.png" >
 
-Directed Graph
-Undirected Graph
-Regular Graph
-Weighted Graph
-Cyclic Graph
-Acyclic Graph
-DAG(Directed Acyclic Graph)
+Here is the one example of traversal but still one bridge left to visit.
+<img src="/img/konigsberg7bridgeTraversal.png">
+
+# Graph Data Stucture
+
+A graph data structure is a collection of nodes that have data and are connected to other nodes.
+
+# Types of graph
+
+## Simple Graph
+
+<img src="img/simgleGraph.png" >
+
+## Directed Graph
+
+<img src="/img/directedGraph.png" >
+
+## Undirected Graph
+
+<img src="img/simgleGraph.png" >
+## Weighted Graph
+<img src="img/WeightedGraph.png" >
+## Cyclic Graph
+<img src="img/cyclicGraph.png" >
+## Acyclic Graph
+<img src="img/acyclicGraph.png" >
+## DAG(Directed Acyclic Graph)
+<img src="img/Dag.png" >
+
+## Handshaking Theorem
+
+Total degree of a graph is equal to twice of the number of edges.
+Total degree of a graph = 2E
+
+$\sum deg(g)$ = 2E
 
 # Graph Representation
 
@@ -27,11 +55,3 @@ src:  //cdn.programiz.com/sites/tutorial2program/files/adjacency-list.png
 ## Incidence Matrix
 
 <img src="/img/IncidenceMatrix.png" >
-
-## Handshaking Theorem
-
-# Konigsberg 7 Bridge Problem
-
-<img src="/img/konigsberg7bridge.png" >
-
-<img src="/img/konigsberg7bridgeTraversal.png">
