@@ -6,12 +6,14 @@
 
 Here is the one example of traversal but still one bridge left to visit.
 <img src="/img/konigsberg7bridgeTraversal.png">
-## Undirected Graph
+## Euler path in Undirected Graph
 No odd vertices or exactly two odd vertices and all other vertices have even degree.
+
 <img src="/img/undirecrtedEuler1.png">
-## Directed Graph
+## Euler path in Directed Graph
 All vertices with nonzero degree belong to a single strongly connected component. 
 In degree is equal to the out degree for every vertex.
+
 <img src="/img/direcrtedEuler.png">
 
 # Graph Data Stucture
@@ -91,10 +93,6 @@ function main() {
 ## Adjacency List Code
 
 ```
-function multiDarray(row, col) {
-    return [...Array(row)].map(() => Array(col).fill(0));
-}
-
 function main() {
     let [N, E] = readLine().split(' ').map(Number);
     let adjList = [...Array(N)].map(() => new Array());
@@ -114,10 +112,6 @@ function main() {
 ## Adjacency List Bfs
 
 ```
-function multiDarray(row, col) {
-    return [...Array(row)].map(() => Array(col).fill(0));
-}
-
 let level = [];
 let parent = [];
 
@@ -132,14 +126,14 @@ function getPath(node) {
 }
 
 function bfs(adjList, startNode = 0, N) {
-    let visited = [...Array(N)].fill(0);
-    let q = [];
-    let bfsTraversal = [];
+    const visited = [...Array(N)].fill(0);
+    const q = [];
+    const bfsTraversal = [];
     visited[startNode] = 1;
     q.push(startNode);
     parent[startNode] = -1;
     while (q.length) {
-        let currentNode = q.shift();
+        const currentNode = q.shift();
         bfsTraversal.push(currentNode);
         for (let child of adjList[currentNode]) {
             if (!visited[child]) {
@@ -154,12 +148,12 @@ function bfs(adjList, startNode = 0, N) {
 }
 
 function main() {
-    let [N, E] = readLine().split(' ').map(Number);
-    let adjList = [...Array(N)].map(() => new Array());
+    const [N, E] = readLine().split(' ').map(Number);
+    const adjList = [...Array(N)].map(() => new Array());
     level = [...Array(N)].fill(0);
     parent = [...Array(N)].fill(0);
     for (let i = 0; i < E; i++) {
-        let [u, v] = readLine().split(' ').map(Number);
+        const [u, v] = readLine().split(' ').map(Number);
         adjList[u].push(v);
         adjList[v].push(u);
     }
@@ -167,33 +161,11 @@ function main() {
     bfs(adjList, 0, N);
     getPath(3);
 }
-
-// example 1
-// 5 4
-// 0 1
-// 0 2
-// 0 3
-// 2 4
-// output
-// bfs traversal  [ 0, 1, 2, 3, 4 ]
-
-// example 2
-// 4 4
-// 0 1
-// 0 3
-// 1 2
-// 2 3
-// output
-// bfs traversal  [ 0, 1, 2, 3, 4 ]
 ```
 
 ## Adjacency List Dfs
 
 ```
-function multiDarray(row, col) {
-    return [...Array(row)].map(() => Array(col).fill(0));
-}
-
 let visited = [];
 let dfsTraversal = [];
 
@@ -208,11 +180,11 @@ function dfs(adjList, startNode = 0) {
 }
 
 function main() {
-    let [N, E] = readLine().split(' ').map(Number);
+    const [N, E] = readLine().split(' ').map(Number);
     visited = [...Array(N)].fill(0);
-    let adjList = [...Array(N)].map(() => new Array());
+    const adjList = [...Array(N)].map(() => new Array());
     for (let i = 0; i < E; i++) {
-        let [u, v] = readLine().split(' ').map(Number);
+        const [u, v] = readLine().split(' ').map(Number);
         adjList[u].push(v);
         adjList[v].push(u);
     }
