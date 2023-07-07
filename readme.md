@@ -6,6 +6,13 @@
 
 Here is the one example of traversal but still one bridge left to visit.
 <img src="/img/konigsberg7bridgeTraversal.png">
+## Undirected Graph
+No odd vertices or exactly two odd vertices and all other vertices have even degree.
+<img src="/img/undirecrtedEuler1.png">
+## Directed Graph
+All vertices with nonzero degree belong to a single strongly connected component. 
+In degree is equal to the out degree for every vertex.
+<img src="/img/direcrtedEuler.png">
 
 # Graph Data Stucture
 
