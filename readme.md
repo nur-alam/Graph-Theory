@@ -6,20 +6,29 @@
 
 Here is the one example of traversal but still one bridge left to visit.
 <img src="/img/konigsberg7bridgeTraversal.png">
-## Euler Cycle in Undirected Graph
-No odd vertices or exactly two odd vertices and all other vertices have even degree.
-Bellow graph Euler cycle not possible cause Vertex A, B, C, D have odd degree.
+## Euler Path
+Euler Path is a path in a graph that visits all edges and every edge exactly once.
+## Euler Path in Undirected Graph
 
-<img src="/img/undirecrtedNotEulerCycle.png">
+Euler path possible when,
+- Every vertices have even degree.
+- No odd vertices or exactly two odd vertices and all other vertices have even degree.
 
-In bellow graph Euler cycle possible. There are vertices that have odd degree but exactly two vertext have odd degree.
+**Notes:** If there is odd degree vertex then start traversal from odd degree vertex.
 
-<img src="/img/eulerCycleInUndirecredGraph.png">
+In bellow graph Euler Path possible. There are vertices that have odd degree but exactly two vertext have odd degree.
+
+<img src="/img/eulerPathInUndirecredGraph.png">
+
+Bellow graph Euler Path not possible cause Vertex A, B, C, D have odd degree.
+
+<img src="/img/undirecrtedNotEulerPath.png">
 
 
-## Euler Cycle in Directed Graph
-All vertices with nonzero degree belong to a single strongly connected component. 
-In degree is equal to the out degree for every vertex.
+## Euler Path in Directed Graph
+Euler path possible when,
+- All vertices with nonzero degree belong to a single strongly connected component. 
+- In degree is equal to the out degree for every vertex.
 
 <img src="/img/direcrtedEuler.png">
 
