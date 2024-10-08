@@ -10,13 +10,13 @@
 				"ID": "home",
 				"title": "Music Home",
 				"post_type": "page",
-				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/music-home.zip"
+				"src": "https://github.com/nur-alam/Graph-Theory/raw/refs/heads/main/music-home.zip"
 			},
 			{
 				"ID": "music-single-course",
 				"title": "Music Single Course",
 				"post_type": "droip_template",
-				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/music-single-course.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/raw/refs/heads/main/music-single-course.zip",
 				"conditions": [
 					{
 						"category": "courses",
@@ -38,13 +38,13 @@
 				"ID": "home",
 				"title": "Photography Home",
 				"post_type": "page",
-				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-home.zip"
+				"src": "https://github.com/nur-alam/Graph-Theory/raw/refs/heads/main/photography-home.zip"
 			},
 			{
 				"ID": "photography-single-course",
 				"title": "Photography Single Course",
 				"post_type": "droip_template",
-				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-course-details.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/raw/refs/heads/main/photography-course-details.zip",
 				"conditions": [
 					{
 						"category": "courses",
@@ -57,7 +57,7 @@
 				"ID": "photography-about-us",
 				"title": "Photography About Us",
 				"post_type": "page",
-				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-about-page.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/raw/refs/heads/main/photography-about-page.zip",
 				"conditions": []
 			}
 		]
