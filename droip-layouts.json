@@ -3,7 +3,7 @@
 		"name": "Music",
 		"ID": 46,
 		"builder_type": "droip",
-		"preview_image": "https://github.com/nur-alam/Graph-Theory/blob/main/business-entrepreneureship.png",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/Graph-Theory/refs/heads/main/droip-music-template.png",
 		"preview_url": "https://preview.tutorlms.com/university2",
 		"pages": [
 			{
@@ -31,7 +31,7 @@
 		"name": "Photography",
 		"ID": 47,
 		"builder_type": "droip",
-		"preview_image": "http://hellotutor.test/wp-content/template-assets/droip-photography-template.jpg",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/Graph-Theory/refs/heads/main/business-entrepreneureship.png",
 		"preview_url": "https://preview.tutorlms.com/university2",
 		"pages": [
 			{
