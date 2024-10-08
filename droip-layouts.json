@@ -5,29 +5,18 @@
 		"builder_type": "droip",
 		"preview_image": "http://hellotutor.test/wp-content/template-assets/droip-music-template.png",
 		"preview_url": "https://preview.tutorlms.com/university2",
-		"notices": "",
-		"categories": [
-			{
-				"name": "Droip"
-			}
-		],
-		"builders": [
-			{
-				"slug": "droip"
-			}
-		],
 		"pages": [
 			{
 				"ID": "home",
 				"title": "Music Home",
 				"post_type": "page",
-				"src": "http://hellotutor.test/wp-content/template-assets/music-home.zip"
+				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/music-home.zip"
 			},
 			{
 				"ID": "music-single-course",
 				"title": "Music Single Course",
 				"post_type": "droip_template",
-				"src": "http://hellotutor.test/wp-content/template-assets/music-single-course.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/music-single-course.zip",
 				"conditions": [
 					{
 						"category": "courses",
@@ -35,12 +24,6 @@
 						"visibility": "show"
 					}
 				]
-			}
-		],
-		"menus": [
-			{
-				"title": "Home",
-				"slug": "home"
 			}
 		]
 	},
@@ -50,29 +33,18 @@
 		"builder_type": "droip",
 		"preview_image": "http://hellotutor.test/wp-content/template-assets/droip-photography-template.jpg",
 		"preview_url": "https://preview.tutorlms.com/university2",
-		"notices": "",
-		"categories": [
-			{
-				"name": "Droip"
-			}
-		],
-		"builders": [
-			{
-				"slug": "droip"
-			}
-		],
 		"pages": [
 			{
 				"ID": "home",
 				"title": "Photography Home",
 				"post_type": "page",
-				"src": "http://hellotutor.test/wp-content/template-assets/photography-home.zip"
+				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-home.zip"
 			},
 			{
 				"ID": "photography-single-course",
 				"title": "Photography Single Course",
 				"post_type": "droip_template",
-				"src": "http://hellotutor.test/wp-content/template-assets/photography-course-details.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-course-details.zip",
 				"conditions": [
 					{
 						"category": "courses",
@@ -85,14 +57,8 @@
 				"ID": "photography-about-us",
 				"title": "Photography About Us",
 				"post_type": "page",
-				"src": "http://hellotutor.test/wp-content/template-assets/photography-about-page.zip",
+				"src": "https://github.com/nur-alam/Graph-Theory/blob/main/photography-about-page.zip",
 				"conditions": []
-			}
-		],
-		"menus": [
-			{
-				"title": "Home",
-				"slug": "home"
 			}
 		]
 	}
